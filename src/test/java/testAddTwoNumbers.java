@@ -10,4 +10,9 @@ public class testAddTwoNumbers {
         Assertions.assertEquals(addTwoNumbers.addTwoNumbers(1,2),3);
 
     }
+    @Test
+    void testBasicFail() {
+        Assertions.assertEquals(addTwoNumbers.addTwoNumbers(1,2),-3);
+
+    }
 }
